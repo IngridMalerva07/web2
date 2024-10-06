@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head> 
+<body>
+
+    <!--Menú de navegación-->
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><a href="#acerca-de-mi">Acerca de mí</a></li>
+                <li><a href="#curriculum">Curriculum Vitae</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Sección Acerca de mí-->
+    <section id="acerca-de-mi">
+        <h2>Acerca de mí</h2>
+        <div class="acerca-de-mi">
+            <img src="Imagenes/Imagen Curriculum.jpeg"class="fotografia" alt="Foto de Ingrid">
+            <p>Hola, soy Ingrid, estudiante de Ingeniería en Sistemas Computacionales.</p>
+        </div>
+        <div class="redes-sociales">
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>   
+    </section>
+
+    <!--Sección Curriculum Vitae-->
+    <section id="curriculum">
+        <h2>Curriculum Vitae</h2>
+        <p>Aquí puedes encontrar mi experiencia profesional, mis estudios y habilidades que he adquirido a lo largo de mi carrera.</p>
+        
+        <h3>Educación</h3>
+        <ul> 
+            <li>2009-2015 Escuela Primaria Federal "FORD 13"</li>
+            <li>2015-2018 Escuela Secundaria Técnica "Comodoro Manuel Azueta Perillos". Técnica en Diseño Industrial</li>
+            <li>2018-2021 Escuela Preparatoria México. Especialidad en Físico-Matemático</li>
+            <li>2021-Actualidad Tecnológico de Cd. Madero. Licenciatura en Ingeniería en Sistemas Computacionales</li>
+        </ul>
+        
+        <h3>Habilidades y experiencia</h3>  
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <div class="progress-bar" id="progress-html">
+                <div class="progress">0%</div>
+            </div>
+            
+            <li>React</li>
+            <div class="progress-bar" id="progress-react">
+                <div class="progress">0%</div>
+            </div> 
+            
+            <li>Desarrollo de aplicaciones móviles (Android)</li>
+            <div class="progress-bar" id="progress-movil">
+                <div class="progress">0%</div>
+            </div> 
+            
+            <li>Gestión de bases de datos (MySQL, SQLServer)</li>
+            <div class="progress-bar" id="progress-db">
+                <div class="progress">0%</div>
+            </div>                
+        </ul>    
+    </section>
+
+    <!--Sección Proyectos-->
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="proyectos-galeria">
+            <div class="proyecto">
+                <a href="https://www.proyecto1.com" target="_blank" rel="noopener noreferrer">
+                    <img src="Imagenes/Galpermex.jpeg" alt="Proyecto 1">
+                    <div class="overlay">Proyecto 1</div>
+                </a>
+            </div>
+            <div class="proyecto">
+                <a href="https://www.proyecto2.com" target="_blank" rel="noopener noreferrer">
+                    <img src="Imagenes/RAHM.jpeg" alt="Proyecto 2">
+                    <div class="overlay">Proyecto 2</div>
+                </a>
+            </div>
+            <!-- Puedes agregar más proyectos aquí -->
+        </div>
+    </section>
+
+    <!--Sección Contacto-->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Aquí puedes ponerte en contacto conmigo.</p>
+        <p><strong>Teléfono:</strong> 833 181 0925</p>
+        <p><strong>Email:</strong> ingridhaselm07@gmail.com</p>
+    </section>
+    
+    <script src="animacionBarras.js"></script>
+
+</body>
+</html>
